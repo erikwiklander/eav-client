@@ -17,14 +17,22 @@ import { MatButtonModule,
   MatPaginatorModule,
   MatSortModule } from '@angular/material';
 
+import { MatSidenavModule } from '@angular/material/sidenav';
+
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { NavigationComponent } from './navigation/navigation.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    FlexLayoutModule,
+    MatSidenavModule,
     MatButtonModule,
     MatCheckboxModule,
     MatIconModule,
