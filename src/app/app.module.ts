@@ -21,11 +21,15 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { NavigationComponent } from './navigation/navigation.component';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { InfoComponent } from './info/info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavigationComponent
+    NavigationComponent,
+    WelcomeComponent,
+    InfoComponent
   ],
   imports: [
     BrowserModule,
